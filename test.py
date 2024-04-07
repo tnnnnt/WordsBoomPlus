@@ -1,11 +1,11 @@
 # coding:utf-8
 import asyncio
 import random
-import WordsBoomPlus.public_function as pf
+import public_function as pf
 from PyQt5.QtCore import Qt, QTimer, QSize
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QPushButton, QDialog, QMessageBox
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus import asyncio_c
+import public_data as pdt
+import asyncio_c
 
 
 # 单词问题界面类

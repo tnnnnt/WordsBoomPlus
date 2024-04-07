@@ -2,8 +2,8 @@
 import asyncio
 from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtWidgets import QVBoxLayout, QPushButton, QDialog, QMessageBox, QPlainTextEdit
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus import asyncio_c
+import public_data as pdt
+import asyncio_c
 
 
 # 反馈对话框类

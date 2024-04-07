@@ -2,7 +2,7 @@
 import json
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QDialog, QLabel, QSpinBox, QPushButton, QCheckBox, QVBoxLayout, QGridLayout
-import WordsBoomPlus.public_data as pdt
+import public_data as pdt
 
 
 # 设置界面类

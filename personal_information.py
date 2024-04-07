@@ -1,12 +1,12 @@
 # coding:utf-8
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QDialog, QLabel, QPushButton, QVBoxLayout
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus.change_nickname import ChangeNickname
-from WordsBoomPlus.change_phone import ChangePhone
-from WordsBoomPlus.destroy_account import DestroyAccount
-from WordsBoomPlus.head import Head
-from WordsBoomPlus.select_head import SelectHead
+import public_data as pdt
+from change_nickname import ChangeNickname
+from change_phone import ChangePhone
+from destroy_account import DestroyAccount
+from head import Head
+from select_head import SelectHead
 
 
 # 定义个人信息界面类

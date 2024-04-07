@@ -2,8 +2,8 @@
 import asyncio
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QDialog, QVBoxLayout, QScrollArea, QWidget, QLabel, QHBoxLayout, QPushButton
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus import asyncio_c
+import public_data as pdt
+import asyncio_c
 
 
 # 自定义按钮类，用于显示邮件摘要

@@ -2,20 +2,20 @@
 import asyncio
 from PyQt5.QtCore import Qt, QTimer
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QLabel, QPushButton, QGridLayout, QMessageBox
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus import asyncio_c
-from WordsBoomPlus.feedback import Feedback
-from WordsBoomPlus.head import Head
-from WordsBoomPlus.help import Help
-from WordsBoomPlus.inbox import Inbox
-from WordsBoomPlus.personal_information import PersonalInformation
-from WordsBoomPlus.ranking import Ranking
-from WordsBoomPlus.search_word import SearchWord
-from WordsBoomPlus.select_vocab_type import SelectVocabType
-from WordsBoomPlus.setting import Setting
-from WordsBoomPlus.collect_words import CollectWords
-from WordsBoomPlus.test import Test
-from WordsBoomPlus.word_popup import WordPopup
+import public_data as pdt
+import asyncio_c
+from feedback import Feedback
+from head import Head
+from help import Help
+from inbox import Inbox
+from personal_information import PersonalInformation
+from ranking import Ranking
+from search_word import SearchWord
+from select_vocab_type import SelectVocabType
+from setting import Setting
+from collect_words import CollectWords
+from test import Test
+from word_popup import WordPopup
 
 
 # 定义菜单窗口类

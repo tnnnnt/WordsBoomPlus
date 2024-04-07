@@ -3,8 +3,8 @@ import asyncio
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QDialog, QHBoxLayout, QWidget, QScrollArea, QGridLayout
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus import asyncio_c
+import public_data as pdt
+import asyncio_c
 
 
 # 单个排行榜项

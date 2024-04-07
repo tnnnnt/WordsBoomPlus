@@ -3,10 +3,10 @@ import asyncio
 from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QPushButton, QDialog, QHBoxLayout, QMessageBox
-import WordsBoomPlus.public_data as pdt
-import WordsBoomPlus.public_function as pf
-from WordsBoomPlus import asyncio_c
-from WordsBoomPlus.word_details import WordDetails
+import public_data as pdt
+import public_function as pf
+import asyncio_c
+from word_details import WordDetails
 
 
 # 定义单词弹窗类

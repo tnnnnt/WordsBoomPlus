@@ -5,8 +5,8 @@ import requests
 from PyQt5.QtCore import QUrl
 from PyQt5.QtMultimedia import QMediaContent
 from PyQt5.QtWidgets import QMessageBox
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus import asyncio_c
+import public_data as pdt
+import asyncio_c
 
 
 # 检查密码是否符合要求

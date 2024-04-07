@@ -3,9 +3,9 @@ import asyncio
 from PyQt5.QtCore import Qt, QRegExp
 from PyQt5.QtGui import QRegExpValidator
 from PyQt5.QtWidgets import QDialog, QVBoxLayout, QLineEdit, QPushButton, QMessageBox, QLabel, QHBoxLayout
-import WordsBoomPlus.public_data as pdt
-import WordsBoomPlus.public_function as pf
-from WordsBoomPlus import asyncio_c
+import public_data as pdt
+import public_function as pf
+import asyncio_c
 
 
 # 换绑手机号对话框类

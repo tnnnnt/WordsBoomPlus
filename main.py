@@ -7,9 +7,9 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QFont
 from PyQt5.QtMultimedia import QMediaPlayer
 from PyQt5.QtWidgets import QApplication, QMessageBox
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus.login import Login
-from WordsBoomPlus.waiting import Waiting
+import public_data as pdt
+from login import Login
+from waiting import Waiting
 
 
 # 文件锁，防止多开

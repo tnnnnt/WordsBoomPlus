@@ -4,10 +4,10 @@ from functools import partial
 from PyQt5.QtCore import Qt, QSize
 from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QVBoxLayout, QLabel, QPushButton, QDialog, QHBoxLayout, QFrame
-import WordsBoomPlus.public_data as pdt
-import WordsBoomPlus.public_function as pf
-from WordsBoomPlus import asyncio_c
-from WordsBoomPlus.contribute import Contribute
+import public_data as pdt
+import public_function as pf
+import asyncio_c
+from contribute import Contribute
 
 
 # 定义单词详细信息类

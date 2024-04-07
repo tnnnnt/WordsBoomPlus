@@ -3,9 +3,9 @@ import asyncio
 from functools import partial
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QDialog, QVBoxLayout, QScrollArea, QWidget, QGridLayout
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus import asyncio_c
-from WordsBoomPlus.head import Head
+import public_data as pdt
+import asyncio_c
+from head import Head
 
 
 # 选择头像对话框类

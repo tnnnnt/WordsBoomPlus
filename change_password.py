@@ -3,9 +3,9 @@ import asyncio
 from PyQt5.QtCore import Qt, QRegExp
 from PyQt5.QtGui import QRegExpValidator
 from PyQt5.QtWidgets import QDialog, QLabel, QLineEdit, QPushButton, QHBoxLayout, QVBoxLayout, QMessageBox
-import WordsBoomPlus.public_data as pdt
-import WordsBoomPlus.public_function as pf
-import WordsBoomPlus.asyncio_c as asyncio_c
+import public_data as pdt
+import public_function as pf
+import asyncio_c as asyncio_c
 
 
 # 修改密码对话框类

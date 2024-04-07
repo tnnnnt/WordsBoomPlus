@@ -1,7 +1,7 @@
 # coding:utf-8
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QLabel, QWidget, QVBoxLayout
-import WordsBoomPlus.public_data as pdt
+import public_data as pdt
 
 
 # 定义等待窗口类

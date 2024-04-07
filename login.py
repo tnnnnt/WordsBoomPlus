@@ -4,13 +4,13 @@ import json
 from PyQt5.QtCore import Qt, QCoreApplication, QRegExp
 from PyQt5.QtGui import QRegExpValidator
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QMessageBox
-import WordsBoomPlus.public_data as pdt
-import WordsBoomPlus.public_function as pf
-from WordsBoomPlus.change_password import ChangePassword
-from WordsBoomPlus.menu import Menu
-from WordsBoomPlus.my_system_tray_icon import MySystemTrayIcon
-from WordsBoomPlus.register import Register
-import WordsBoomPlus.asyncio_c as asyncio_c
+import public_data as pdt
+import public_function as pf
+from change_password import ChangePassword
+from menu import Menu
+from my_system_tray_icon import MySystemTrayIcon
+from register import Register
+import asyncio_c
 
 
 # 登录界面类

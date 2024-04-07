@@ -4,8 +4,8 @@ import json
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QDialog, QPushButton, QGridLayout, QWidget, QLabel, QVBoxLayout, QMessageBox, QScrollArea
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus import asyncio_c
+import public_data as pdt
+import asyncio_c
 
 
 # 定义词书类

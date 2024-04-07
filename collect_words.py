@@ -2,9 +2,9 @@
 import asyncio
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QMessageBox, QHBoxLayout, QScrollArea, QDialog
-import WordsBoomPlus.public_data as pdt
-from WordsBoomPlus import asyncio_c
-from WordsBoomPlus.word_details import WordDetails
+import public_data as pdt
+import asyncio_c
+from word_details import WordDetails
 
 
 # 收藏单词部件类
